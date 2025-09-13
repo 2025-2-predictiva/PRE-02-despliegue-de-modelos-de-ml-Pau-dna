@@ -7,6 +7,7 @@
 import requests
 
 
+
 def make_request():
     """Make a request to the API server"""
 
@@ -25,6 +26,7 @@ def make_request():
     response = requests.post(url, json=data, timeout=5)
 
     print(response.text)
+
 
 
 if __name__ == "__main__":

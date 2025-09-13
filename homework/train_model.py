@@ -10,6 +10,7 @@ from sklearn.linear_model import LinearRegression  # type: ignore
 
 df = pd.read_csv("files/input/house_data.csv", sep=",")
 
+
 features = df[
     [
         "bedrooms",
